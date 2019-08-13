@@ -1,0 +1,1165 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "password",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user1",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2019-08-08T16:54:49.558Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "password",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user2",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2019-08-08T16:54:49.561Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$100000$N8loYBXSln7X$gqJBYNqMkhTyyBzpV2H1zQbfkfCEKiVfoMhTrbaQtUs=",
+        "last_login": "2019-08-08T16:42:50.132Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2019-08-08T16:42:40.588Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3m32x7puncizp680e4ioeblfehzzm5z7",
+    "fields": {
+        "session_data": "OTBiMjI3NTY3N2Y4ZmIyYTYwZDNiZTc1MzFmNWI5Mzg4ZGIzMGRiYTp7Il9hdXRoX3VzZXJfaWQiOiIzIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJlOGJhODM3MWVlNjQ3MGNhMzQ2YWYyM2M5ODFlNWRmY2Y3YTVjODBjIn0=",
+        "expire_date": "2019-08-22T16:42:50.134Z"
+    }
+},
+{
+    "model": "product.product",
+    "pk": 1,
+    "fields": {
+        "title": "\u041c\u044b\u043b\u043e",
+        "subtitle": "",
+        "brand": "\u0410\u0448\u0430\u043d",
+        "image": "media/products/default.png",
+        "description": "\u041b\u043e\u0440\u0435\u043c \u0438\u043f\u0441\u0443\u043c",
+        "description_html": "",
+        "offers": []
+    }
+},
+{
+    "model": "product.productsingle",
+    "pk": 1,
+    "fields": {
+        "title": "\u0428\u0430\u043c\u043f\u0443\u043d\u044c LOREAL",
+        "subtitle": "ABSOLUT REPAIR LIPIDIUM",
+        "created_at": "2019-08-11T16:02:00.850Z",
+        "saloon": null,
+        "seller": null,
+        "brand": "Loreal Paris",
+        "main_image": "product_single/images.jpeg",
+        "stars": 3,
+        "price": 1500,
+        "description": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+        "old_price": 2100,
+        "availability": 1,
+        "product": null,
+        "images": []
+    }
+},
+{
+    "model": "product.service",
+    "pk": 1,
+    "fields": {
+        "title": "Title",
+        "created_at": "2019-08-10T09:09:56.362Z",
+        "category": "9",
+        "main_image": "media/services/default.png",
+        "saloon": null,
+        "seller": null,
+        "price": 123,
+        "work_hours": "1111111",
+        "description": "w",
+        "description_html": "<p>w</p>\n",
+        "images": []
+    }
+},
+{
+    "model": "saloon.saloon",
+    "pk": 1,
+    "fields": {
+        "title": "\u0421\u0430\u043b\u043e\u043d",
+        "type": "\u0421\u0430\u043b\u043e\u043d-\u043f\u0430\u0440\u0438\u043a\u043c\u0430\u0445\u0435\u0440\u0441\u043a\u0430\u044f",
+        "main_image": "saloon/Unknown-1.jpeg",
+        "work_hours": "08:00-17:00 12:00-20:00",
+        "phone": "+7 (999) 999-99-99",
+        "email": "beauty@yandex.ru",
+        "site": "google.com",
+        "adress": "\u041a\u0443\u0437\u043d\u0435\u0446\u043a\u0438\u0439 \u043c\u043e\u0441\u0442, 13",
+        "district": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439",
+        "foundation_date": "12.12.12",
+        "stars": 3,
+        "number_of_start": 0,
+        "num_of_liked": 0,
+        "num_of_employees": 1,
+        "is_vip": false,
+        "inn": "",
+        "nds": "",
+        "bank_code": "",
+        "description": "Desctiption",
+        "description_html": "<p>Desctiption</p>\n",
+        "images": [],
+        "employees": [],
+        "q_and_a": []
+    }
+},
+{
+    "model": "saloon.profile",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "user1"
+        ],
+        "avatar": "avatars/blizzard-is-forcing-overwatch-players-to-drop-pepe-the-frog-meme-520340-2.jpg",
+        "first_name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430",
+        "last_name": "\u0421\u043c\u0438\u0440\u043d\u043e\u0432\u0430",
+        "patronymic_name": "\u0412\u0438\u0442\u0430\u043b\u044c\u0435\u0432\u043d\u0430",
+        "specialisation": "\u041f\u0430\u0440\u0438\u043a\u043c\u0430\u0445\u0435\u0440",
+        "phone": "",
+        "skype": "smirnova",
+        "email": "smirnova@yandex.ru",
+        "starts": 0,
+        "number_of_start": 0,
+        "adress": "\u0410\u0440\u0431\u0430\u0442",
+        "district": "1",
+        "date_of_registration": "",
+        "date_of_last_visit": "",
+        "number_of_messeges": 0,
+        "number_of_paid_messeges": 0,
+        "status": "0",
+        "work_hours": "",
+        "saloons": null,
+        "products": [],
+        "adverts": [],
+        "articles": [
+            1
+        ],
+        "advert_offers": [],
+        "comments": [],
+        "banned_users": [],
+        "liked_saloons": [],
+        "products_in_compare": []
+    }
+},
+{
+    "model": "offer.offer",
+    "pk": 1,
+    "fields": {
+        "title": "\u0421\u043a\u0438\u0434\u043e\u0447\u043a\u0430",
+        "saloon": 1,
+        "seller": 2,
+        "created_at": "2019-08-12T12:05:03.970Z",
+        "main_image": "offers/images-2_Q8Y8sos.jpeg",
+        "big_image": "events/images-2.jpeg",
+        "till": "\u0414\u043e 1 \u042f\u043d\u0432\u0430\u0440\u044f 2020 \u0433\u043e\u0434\u0430",
+        "requirements": "\u041f\u043e\u0434\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u0433\u0440\u0443\u043f\u043f\u0443 \u0412\u041a",
+        "description": "\u0423\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u0448\u0430\u043d\u0441 \u043f\u043e\u0443\u0447\u0430\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0432 \u0430\u043a\u0446\u0438\u0438 \u0438 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0443\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u043b\u0438\u0447\u043d\u043e\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+        "description_html": "<p>\u0423\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u0448\u0430\u043d\u0441 \u043f\u043e\u0443\u0447\u0430\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0432 \u0430\u043a\u0446\u0438\u0438 \u0438 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0443\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u043b\u0438\u0447\u043d\u043e\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0435</p>\n"
+    }
+},
+{
+    "model": "offer.event",
+    "pk": 1,
+    "fields": {
+        "title": "\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u0441\u0430\u043b\u043e\u043d\u044b \u043a\u0440\u0430\u0441\u043e\u0442\u044b",
+        "saloon": 1,
+        "master": null,
+        "created_at": "2019-08-12T15:37:26.409Z",
+        "main_image": "events/images-1.jpeg",
+        "price": 0,
+        "till": "01.09.2019 - 03.09.2019",
+        "time": "11:00-12:00",
+        "description": "\u041a\u0440\u0430\u0442\u043a\u043e\u0435, \u0430 \u043c\u043e\u0436\u0435\u0442 \u0438 \u043d\u0435 \u043e\u0447\u0435\u043d\u044c, \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u044f, \u043f\u043e\u0441\u0432\u044f\u0449\u0435\u043d\u043d\u043e\u0433\u043e \u043e\u0442\u043a\u0440\u044b\u0442\u0438\u044e \u0441\u0430\u043b\u043e\u043d\u0430",
+        "description_short": "\u041a\u0440\u0430\u0442\u043a\u043e\u0441\u0442\u044c - \u0441\u0435\u0441\u0442\u0440\u0430 \u0442\u0430\u043b\u0430\u043d\u0442\u0430",
+        "description_html": "<p>\u041a\u0440\u0430\u0442\u043a\u043e\u0435, \u0430 \u043c\u043e\u0436\u0435\u0442 \u0438 \u043d\u0435 \u043e\u0447\u0435\u043d\u044c, \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u044f, \u043f\u043e\u0441\u0432\u044f\u0449\u0435\u043d\u043d\u043e\u0433\u043e \u043e\u0442\u043a\u0440\u044b\u0442\u0438\u044e \u0441\u0430\u043b\u043e\u043d\u0430</p>\n"
+    }
+},
+{
+    "model": "offer.event",
+    "pk": 2,
+    "fields": {
+        "title": "\u0417\u0430\u043a\u0440\u044b\u0442\u0438\u0435 \u0441\u0430\u043b\u043e\u043d\u0430 \u043a\u0440\u0430\u0441\u043e\u0442\u044b",
+        "saloon": 1,
+        "master": null,
+        "created_at": "2019-08-12T19:24:07.496Z",
+        "main_image": "events/a_ov_Pepe_160928.jpg",
+        "price": 3000,
+        "till": "05.10.19",
+        "time": "8:00-9:00",
+        "description": "\u0421\u0430\u043b\u043e\u043d \u043a\u0440\u0430\u0441\u043e\u0442\u044b \u0441 \u043e\u0433\u0440\u043e\u043c\u043d\u043e\u0439 \u0433\u043e\u0440\u0435\u0447\u044c\u044e \u0441\u043e\u043e\u0431\u0449\u0430\u0435\u0442 \u043e \u0441\u0432\u043e\u0435\u043c \u0441\u043a\u043e\u0440\u043e\u043c \u0437\u0430\u043a\u0440\u044b\u0442\u0438\u0438 \u0432 \u0441\u0432\u044f\u0437\u0438 \u0441 \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0435\u043c \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432",
+        "description_short": "\u0421\u0430\u043b\u043e\u043d \u043a\u0440\u0430\u0441\u043e\u0442\u044b \u0437\u0430\u043a\u0440\u044b\u0432\u0430\u0435\u0442\u0441\u044f.",
+        "description_html": "<p>\u0421\u0430\u043b\u043e\u043d \u043a\u0440\u0430\u0441\u043e\u0442\u044b \u0441 \u043e\u0433\u0440\u043e\u043c\u043d\u043e\u0439 \u0433\u043e\u0440\u0435\u0447\u044c\u044e \u0441\u043e\u043e\u0431\u0449\u0430\u0435\u0442 \u043e \u0441\u0432\u043e\u0435\u043c \u0441\u043a\u043e\u0440\u043e\u043c \u0437\u0430\u043a\u0440\u044b\u0442\u0438\u0438 \u0432 \u0441\u0432\u044f\u0437\u0438 \u0441 \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0435\u043c \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432</p>\n"
+    }
+},
+{
+    "model": "offer.event",
+    "pk": 3,
+    "fields": {
+        "title": "\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u043d\u043e\u0432\u043e\u0433\u043e \u0441\u0430\u043b\u043e\u043d\u0430",
+        "saloon": 1,
+        "master": null,
+        "created_at": "2019-08-12T19:25:37.258Z",
+        "main_image": "events/262.jpg",
+        "price": 0,
+        "till": "06.11.2020 - 10.12.2012",
+        "time": "11:00-12:00",
+        "description": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+        "description_short": "\u041a\u0440\u0430\u0442\u043a\u043e\u0435 \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+        "description_html": "<p>\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435</p>\n"
+    }
+},
+{
+    "model": "offer.seminar",
+    "pk": 1,
+    "fields": {
+        "title": "\u0421\u0435\u043c\u0438\u043d\u0430\u0440",
+        "saloon": 1,
+        "master": null,
+        "created_at": "2019-08-12T11:02:51.291Z",
+        "main_image": "events/Unknown.jpeg",
+        "till": "01.09.2019 - 03.09.2019",
+        "description": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0441\u0435\u043c\u0438\u043d\u0430\u0440\u0430",
+        "description_html": "<p>\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0441\u0435\u043c\u0438\u043d\u0430\u0440\u0430</p>\n"
+    }
+},
+{
+    "model": "offer.training",
+    "pk": 1,
+    "fields": {
+        "title": "\u0422\u0440\u044d\u0439\u043d\u0438\u043d\u0433",
+        "saloon": 1,
+        "master": null,
+        "created_at": "2019-08-12T11:03:55.598Z",
+        "main_image": "events/Unknown-1.jpeg",
+        "till": "01.09.2019 - 03.09.2019",
+        "description": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0438\u0434\u0435\u0442 \u0432 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0441\u0442\u0440\u043e\u0447\u0435\u043a, \u0430 \u043c\u043e\u0436\u0435\u0442 \u0438 \u0432\u043e\u0432\u0441\u0435 \u0431\u0435\u0436\u0438\u0442.",
+        "description_html": "<p>\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0438\u0434\u0435\u0442 \u0432 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0441\u0442\u0440\u043e\u0447\u0435\u043a, \u0430 \u043c\u043e\u0436\u0435\u0442 \u0438 \u0432\u043e\u0432\u0441\u0435 \u0431\u0435\u0436\u0438\u0442.</p>\n"
+    }
+},
+{
+    "model": "offer.news",
+    "pk": 1,
+    "fields": {
+        "title": "\u0421\u0440\u043e\u0447\u043d\u0430\u044f \u043d\u043e\u0432\u043e\u0441\u0442\u044c",
+        "saloon": 1,
+        "master": null,
+        "created_at": "2019-08-12T11:04:35.076Z",
+        "main_image": "events/images-3.jpeg",
+        "till": "01.10.2019",
+        "description": "\u041d\u043e\u0432\u043e\u0441\u0442\u044c.",
+        "description_html": "<p>\u041d\u043e\u0432\u043e\u0441\u0442\u044c.</p>\n"
+    }
+},
+{
+    "model": "comment.qa",
+    "pk": 1,
+    "fields": {
+        "question": "\u041a\u0430\u043a \u043f\u043e\u0431\u043e\u0440\u043e\u0442\u044c \u043f\u0440\u044b\u0449\u0438?",
+        "created_at": "2019-08-12T20:09:15.563Z",
+        "author": 2,
+        "answer": 1
+    }
+},
+{
+    "model": "comment.opinion",
+    "pk": 1,
+    "fields": {
+        "title": "\u0422\u0435\u043a\u0441\u0442 \u0432\u043e\u043f\u0440\u043e\u0441\u0430?",
+        "created_at": "2019-08-12T17:56:18.553Z",
+        "author": 2,
+        "text": "\u0421\u0435\u0440\u0432\u0438\u0441, \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043e\u0441\u043d\u0430\u0449\u0435\u043d\u0438\u0435 \u0438 \u0433\u043b\u0430\u0432\u043d\u043e\u0435, \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u0432 \u0441\u0430\u043b\u043e\u043d\u0430 \u043a \u043a\u043b\u0438\u0435\u043d\u0442\u0443 \u0434\u043e\u043b\u0436\u043d\u044b \u0431\u044b\u0442\u044c \u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u043e\u043c \u0443\u0440\u043e\u0432\u043d\u0435.\r\n\r\n\u0412 \u0441\u0435\u0442\u044c \u0441\u0430\u043b\u043e\u043d\u043e\u0432 \u043a\u0440\u0430\u0441\u043e\u0442\u044b \"\u041b\u0435\u0439\u0441\u0430\u043d\" \u043d\u0430 \u0441\u0435\u0433\u043e\u0434\u043d\u044f\u0448\u043d\u0438\u0439 \u0434\u0435\u043d\u044c \u0432\u0445\u043e\u0434\u044f\u0442 \u0434\u0432\u0430 \u0441\u0430\u043b\u043e\u043d\u0430, \u043a \u043a\u043e\u0442\u043e\u0440\u044b\u043c \u043b\u0435\u0433\u043a\u043e \u0434\u043e\u0431\u0440\u0430\u0442\u044c\u0441\u044f \u043a\u0430\u043a \u043d\u0430 \u043b\u0438\u0447\u043d\u043e\u043c, \u0442\u0430\u043a \u0438 \u0433\u043e\u0440\u043e\u0434\u0441\u043a\u043e\u043c \u0430\u0432\u0442\u043e\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u0435. \u041f\u0440\u0438 \u044d\u0442\u043e\u043c \u0441\u0430\u043b\u043e\u043d\u044b \u0438\u043c\u0435\u044e\u0442 \u043e\u0442\u043b\u0438\u0447\u043d\u043e\u0435 \u043e\u0441\u043d\u0430\u0449\u0435\u043d\u0438\u0435 \u043d\u043e\u0432\u0435\u0439\u0448\u0435\u0439 \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0439 \u0442\u0435\u0445\u043d\u0438\u043a\u043e\u0439, \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0439 \u0434\u043b\u044f \u0441\u043e\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u044f \u0432\u0430\u0448\u0435\u0433\u043e \u043d\u0435\u0437\u0430\u0431\u044b\u0432\u0430\u0435\u043c\u043e\u0433\u043e \u043e\u0431\u0440\u0430\u0437\u0430 \u0438 \u0443\u0434\u043e\u0432\u043b\u0435\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u044f \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432 \u0441\u0430\u043c\u044b\u0445 \u0432\u0437\u044b\u0441\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432. \u041c\u044b \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u043c, \u0447\u0442\u043e \u043d\u0430\u0448\u0430 \u0437\u0430\u0434\u0430\u0447\u0430 \u0437\u0430\u043a\u043b\u044e\u0447\u0430\u0435\u0442\u0441\u044f \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0432 \u043e\u043a\u0430\u0437\u0430\u043d\u0438\u0438 \u043a\u043e\u0441\u043c\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0438 \u043f\u0430\u0440\u0438\u043a\u043c\u0430\u0445\u0435\u0440\u0441\u043a\u0438\u0445 \u0443\u0441\u043b\u0443\u0433, \u043d\u043e \u0438 \u0432 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0438 \u0443 \u0432\u0430\u0441 \u043e\u0442\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f. \u041f\u043e \u044d\u0442\u043e\u0439 \u043f\u0440\u0438\u0447\u0438\u043d\u0435 \u043c\u044b \u0441\u0442\u0430\u0440\u0430\u0435\u043c\u0441\u044f \u0434\u0435\u043b\u0430\u0442\u044c \u0432\u0441\u0435, \u0447\u0442\u043e\u0431\u044b \u043d\u0430\u0448 \u0441\u0435\u0440\u0432\u0438\u0441 \u0432\u0430\u043c \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f, \u0438 \u0447\u0442\u043e\u0431\u044b \u0432\u0430\u0448\u0435 \u043f\u0440\u0435\u0431\u044b\u0432\u0430\u043d\u0438\u0435 \u0443 \u043d\u0430\u0441 \u043f\u0440\u0438\u043d\u0435\u0441\u043b\u043e \u0432\u0430\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e\u043b\u043e\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u044d\u043c\u043e\u0446\u0438\u0438. \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432 \u0441\u0430\u043c\u044b\u0445 \u0432\u0437\u044b\u0441\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432. \u041c\u044b \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u043c, \u0447\u0442\u043e \u043d\u0430\u0448\u0430 \u0437\u0430\u0434\u0430\u0447\u0430 \u0437\u0430\u043a\u043b\u044e\u0447\u0430\u0435\u0442\u0441\u044f \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0432 \u043e\u043a\u0430\u0437\u0430\u043d\u0438\u0438 \u043a\u043e\u0441\u043c\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0438 \u043f\u0430\u0440\u0438\u043a\u043c\u0430\u0445\u0435\u0440\u0441\u043a\u0438\u0445 \u0443\u0441\u043b\u0443\u0433, \u043d\u043e \u0438 \u0432 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0438 \u0443 \u0432\u0430\u0441 \u043e\u0442\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f. \u041f\u043e \u044d\u0442\u043e\u0439 \u043f\u0440\u0438\u0447\u0438\u043d\u0435 \u043c\u044b \u0441\u0442\u0430\u0440\u0430\u0435\u043c\u0441\u044f \u0434\u0435\u043b\u0430\u0442\u044c \u0432\u0441\u0435, \u0447\u0442\u043e\u0431\u044b \u043d\u0430\u0448 \u0441\u0435\u0440\u0432\u0438\u0441 \u0432\u0430\u043c \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f, \u0438 \u0447\u0442\u043e\u0431\u044b \u0432\u0430\u0448\u0435 \u043f\u0440\u0435\u0431\u044b\u0432\u0430\u043d\u0438\u0435 \u0443 \u043d\u0430\u0441 \u043f\u0440\u0438\u043d\u0435\u0441\u043b\u043e \u0432\u0430\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e\u043b\u043e\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u044d\u043c\u043e\u0446\u0438\u0438.",
+        "text_html": "<p>\u0421\u0435\u0440\u0432\u0438\u0441, \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043e\u0441\u043d\u0430\u0449\u0435\u043d\u0438\u0435 \u0438 \u0433\u043b\u0430\u0432\u043d\u043e\u0435, \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u0432 \u0441\u0430\u043b\u043e\u043d\u0430 \u043a \u043a\u043b\u0438\u0435\u043d\u0442\u0443 \u0434\u043e\u043b\u0436\u043d\u044b \u0431\u044b\u0442\u044c \u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u043e\u043c \u0443\u0440\u043e\u0432\u043d\u0435.</p>\n\n<p>\u0412 \u0441\u0435\u0442\u044c \u0441\u0430\u043b\u043e\u043d\u043e\u0432 \u043a\u0440\u0430\u0441\u043e\u0442\u044b &quot;\u041b\u0435\u0439\u0441\u0430\u043d&quot; \u043d\u0430 \u0441\u0435\u0433\u043e\u0434\u043d\u044f\u0448\u043d\u0438\u0439 \u0434\u0435\u043d\u044c \u0432\u0445\u043e\u0434\u044f\u0442 \u0434\u0432\u0430 \u0441\u0430\u043b\u043e\u043d\u0430, \u043a \u043a\u043e\u0442\u043e\u0440\u044b\u043c \u043b\u0435\u0433\u043a\u043e \u0434\u043e\u0431\u0440\u0430\u0442\u044c\u0441\u044f \u043a\u0430\u043a \u043d\u0430 \u043b\u0438\u0447\u043d\u043e\u043c, \u0442\u0430\u043a \u0438 \u0433\u043e\u0440\u043e\u0434\u0441\u043a\u043e\u043c \u0430\u0432\u0442\u043e\u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u0435. \u041f\u0440\u0438 \u044d\u0442\u043e\u043c \u0441\u0430\u043b\u043e\u043d\u044b \u0438\u043c\u0435\u044e\u0442 \u043e\u0442\u043b\u0438\u0447\u043d\u043e\u0435 \u043e\u0441\u043d\u0430\u0449\u0435\u043d\u0438\u0435 \u043d\u043e\u0432\u0435\u0439\u0448\u0435\u0439 \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0439 \u0442\u0435\u0445\u043d\u0438\u043a\u043e\u0439, \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0439 \u0434\u043b\u044f \u0441\u043e\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u044f \u0432\u0430\u0448\u0435\u0433\u043e \u043d\u0435\u0437\u0430\u0431\u044b\u0432\u0430\u0435\u043c\u043e\u0433\u043e \u043e\u0431\u0440\u0430\u0437\u0430 \u0438 \u0443\u0434\u043e\u0432\u043b\u0435\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u044f \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432 \u0441\u0430\u043c\u044b\u0445 \u0432\u0437\u044b\u0441\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432. \u041c\u044b \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u043c, \u0447\u0442\u043e \u043d\u0430\u0448\u0430 \u0437\u0430\u0434\u0430\u0447\u0430 \u0437\u0430\u043a\u043b\u044e\u0447\u0430\u0435\u0442\u0441\u044f \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0432 \u043e\u043a\u0430\u0437\u0430\u043d\u0438\u0438 \u043a\u043e\u0441\u043c\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0438 \u043f\u0430\u0440\u0438\u043a\u043c\u0430\u0445\u0435\u0440\u0441\u043a\u0438\u0445 \u0443\u0441\u043b\u0443\u0433, \u043d\u043e \u0438 \u0432 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0438 \u0443 \u0432\u0430\u0441 \u043e\u0442\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f. \u041f\u043e \u044d\u0442\u043e\u0439 \u043f\u0440\u0438\u0447\u0438\u043d\u0435 \u043c\u044b \u0441\u0442\u0430\u0440\u0430\u0435\u043c\u0441\u044f \u0434\u0435\u043b\u0430\u0442\u044c \u0432\u0441\u0435, \u0447\u0442\u043e\u0431\u044b \u043d\u0430\u0448 \u0441\u0435\u0440\u0432\u0438\u0441 \u0432\u0430\u043c \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f, \u0438 \u0447\u0442\u043e\u0431\u044b \u0432\u0430\u0448\u0435 \u043f\u0440\u0435\u0431\u044b\u0432\u0430\u043d\u0438\u0435 \u0443 \u043d\u0430\u0441 \u043f\u0440\u0438\u043d\u0435\u0441\u043b\u043e \u0432\u0430\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e\u043b\u043e\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u044d\u043c\u043e\u0446\u0438\u0438. \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432 \u0441\u0430\u043c\u044b\u0445 \u0432\u0437\u044b\u0441\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432. \u041c\u044b \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u043c, \u0447\u0442\u043e \u043d\u0430\u0448\u0430 \u0437\u0430\u0434\u0430\u0447\u0430 \u0437\u0430\u043a\u043b\u044e\u0447\u0430\u0435\u0442\u0441\u044f \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0432 \u043e\u043a\u0430\u0437\u0430\u043d\u0438\u0438 \u043a\u043e\u0441\u043c\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0438 \u043f\u0430\u0440\u0438\u043a\u043c\u0430\u0445\u0435\u0440\u0441\u043a\u0438\u0445 \u0443\u0441\u043b\u0443\u0433, \u043d\u043e \u0438 \u0432 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0438 \u0443 \u0432\u0430\u0441 \u043e\u0442\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f. \u041f\u043e \u044d\u0442\u043e\u0439 \u043f\u0440\u0438\u0447\u0438\u043d\u0435 \u043c\u044b \u0441\u0442\u0430\u0440\u0430\u0435\u043c\u0441\u044f \u0434\u0435\u043b\u0430\u0442\u044c \u0432\u0441\u0435, \u0447\u0442\u043e\u0431\u044b \u043d\u0430\u0448 \u0441\u0435\u0440\u0432\u0438\u0441 \u0432\u0430\u043c \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f, \u0438 \u0447\u0442\u043e\u0431\u044b \u0432\u0430\u0448\u0435 \u043f\u0440\u0435\u0431\u044b\u0432\u0430\u043d\u0438\u0435 \u0443 \u043d\u0430\u0441 \u043f\u0440\u0438\u043d\u0435\u0441\u043b\u043e \u0432\u0430\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e\u043b\u043e\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u044d\u043c\u043e\u0446\u0438\u0438.</p>\n",
+        "image": "opinions/Unknown-1.jpeg"
+    }
+},
+{
+    "model": "comment.article",
+    "pk": 1,
+    "fields": {
+        "title": "\u0421\u0442\u0430\u0442\u044c\u044f \u21161",
+        "created_at": "2019-08-12T18:39:12.881Z",
+        "date": "11.12.03",
+        "author": 2,
+        "main_image": "articles/Unknown.jpeg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus. Non diam phasellus vestibulum lorem sed risus ultricies",
+        "text": "<div class=\"article_text_header\">\r\n\t\t\t\t\tconsequat. Donec vitae sapien libero. Suspendisse commodo imperdiet pretium. Nunc quis ante imperdiet, rutrum neque id, eleifend lacus. Phasellus ipsum lacus, laoreet vel tortor eu, eleifend ullamcorper justo.\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t</br>\r\n\t\t\t\tCras iaculis auctor neque. Ut semper varius arcu sit amet pretium. In mollis suscipit nunc, at congue urna congue vel. Praesent ligula velit, tempus ut mollis ut, dictum pulvinar felis. Vestibulum vitae sagittis lectus, at consectetur nibh. Duis porttitor vehicula nulla, nec consequat nibh viverra a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc euismod quis massa sit amet cursus. Nam eleifend velit consectetur maximus efficitur. Etiam euismod lorem tincidunt nibh pharetra suscipit. Nulla facilisi. Praesent euismod quis lacus eget hendrerit.\r\n\t\t\t\t<br/><br/>\r\n\r\n\t\t\t\t<div class=\"article_text_header\">\r\n\t\t\t\t\tPhasellus id magna neque. Nunc placerat sit amet metus vel tristique. Nullam sit amet rhoncus erat.\r\n\t\t\t\t</div>\r\n\t\t\t\t</br>\r\n\r\n\t\t\t\tPraesent consequat lorem facilisis sapien luctus, nec fermentum enim dapibus. Donec nisl justo, consectetur at euismod a, tempor sed orci. Nam vitae dapibus nulla, sed auctor nisl. Quisque quis urna eget est tempus pellentesque et at odio. Nullam in semper turpis. Nulla consequat erat semper, faucibus sem ut, aliquet nisl. Morbi tincidunt mattis turpis, consectetur venenatis lorem posuere ut. Praesent et augue faucibus, maximus arcu sit amet, consequat massa. Duis pharetra rutrum neque, non consectetur felis tempor consequat. Sed mollis mollis ante ut imperdiet. Ut et mattis purus, quis bibendum arcu. Donec porttitor finibus egestas.\r\n\t\t\t\t<br/><br/>\r\n\r\n\t\t\t\t<ul class=\"article_text_list\">\r\n\t\t\t\t\t<li>Ut maximus tristique libero. Suspendisse sed accumsan dolor.</li>\r\n\t\t\t\t\t<li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</li>\r\n\t\t\t\t\t<li>Donec ac mattis felis. In sollicitudin hendrerit risus, vel venenatis velit viverra nec.</li>\r\n\t\t\t\t\t<li>Morbi convallis metus id lacinia mollis. Phasellus viverra auctor augue, sed dignissim tortor egestas posuere.</li>\r\n\t\t\t\t</ul>\r\n\t\t\t\t</br>\r\n\r\n\t\t\t\tMorbi quam urna, luctus eget tincidunt id, tincidunt id turpis. Nullam massa arcu, semper ut orci et, pretium maximus libero. Nam id massa lorem. Nulla iaculis vehicula pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque augue vel tortor euismod, id sodales dolor consectetur. Morbi commodo luctus leo sit amet fermentum. Praesent eget tempor sapien. Maecenas condimentum nunc metus, non accumsan sem rutrum in. Donec elementum magna et gravida pharetra. Vivamus dolor purus, congue vitae justo at, gravida euismod lectus. Aenean hendrerit, lacus eget ornare rhoncus, elit quam molestie nibh, eu dapibus elit libero ac risus.\r\n\t\t\t\t<br/><br/>\r\n\r\n\t\t\t\t<div class=\"article_text_header\">\r\n\t\t\t\t\tAenean ullamcorper dolor enim, a ultricies arcu euismod eget. Cras dolor diam, blandit molestie auctor ac, vestibulum a lectus. Morbi eros magna, viverra a tristique quis, varius et ipsum. Donec sollicitudin iaculis magna nec interdum. Proin finibus vehicula arcu at efficitur. Etiam molestie est ipsum, ut rhoncus orci gravida sed. Etiam aliquam odio quam, ut cursus nisl lacinia quis. Nunc semper erat eget viverra varius. Donec malesuada ante eu bibendum tempus. Proin lobortis lacus quis lorem consequat pretium.\r\n\t\t\t\t</div>\r\n\t\t\t\t</br>\r\n\r\n\t\t\t\tNam sit amet consequat orci. In a leo imperdiet, iaculis est at, vehicula enim. Nam a dolor eget enim volutpat dignissim. Nullam ac nibh diam. Pellentesque fermentum est id sapien hendrerit dapibus. Mauris sed pharetra diam. Quisque id tortor iaculis lorem ullamcorper tempor. Sed vel eros bibendum justo tristique sollicitudin. Aenean finibus commodo elit, sit amet maximus leo porttitor nec. Nunc ultrices ligula purus, id aliquet nibh convallis eget. Donec varius, lectus interdum posuere volutpat, massa urna imperdiet justo, quis mollis massa nunc nec est. Morbi varius enim libero, id egestas nunc tincidunt eu. Phasellus at pharetra odio, sed pharetra nibh.\r\n\t\t\t\t<br/><br/>\r\n\r\n\t\t\t\tNam in mi nec diam gravida semper. Nulla congue, eros quis aliquet tempus, erat arcu fringilla lectus, et rhoncus elit eros eu dui. Sed eget velit risus. Fusce a orci malesuada, molestie neque vel, bibendum nisl. Duis vehicula lacus vitae dolor finibus, vitae posuere magna gravida. Vivamus ut fringilla nibh, vel aliquam ligula. Mauris in dolor eget urna fringilla pharetra ut eu dui. Cras mattis, turpis eget condimentum sodales, tortor eros pulvinar leo, id varius sapien mauris non ipsum. Suspendisse felis urna, posuere eu euismod eget, mattis in urna. Etiam sit amet blandit justo. Aenean id nisi eu mauris pretium ultricies. Pellentesque lacinia, augue non consectetur volutpat, ex urna porta nulla, sed eleifend lectus ligula sit amet turpis. Pellentesque feugiat vehicula dui, placerat bibendum mi cursus sed. Curabitur volutpat, urna at tincidunt finibus, nunc nisi faucibus est, non gravida augue lacus a nisi.\r\n\t\t\t\t<br/><br/>\r\n\r\n\t\t\t\t<!--\r\n\t\t\t\t<img class=\"article_text_image\" src=\"images/all_blogs/blog_pic.jpg\" alt=\"\">\r\n\t\t\t\t<br/><br/>\r\n\t\t\t-->\r\n\r\n\t\t\t\tDonec imperdiet auctor maximus. Nam ultrices turpis ullamcorper nunc interdum, sit amet consectetur velit feugiat. Quisque interdum rhoncus tellus, eu aliquam ipsum luctus ut. Aenean mollis, arcu molestie accumsan consequat, mauris est dictum purus, eget eleifend risus metus a lorem. Fusce dignissim nunc vel bibendum consequat. Duis dignissim, ipsum ac fermentum consectetur, nisl ex euismod velit, et sollicitudin felis urna nec sapien. Nullam vitae blandit ante. Vivamus venenatis sit amet arcu at feugiat. Nam interdum egestas velit in scelerisque. Aliquam semper posuere dui in ultrices. Maecenas et enim ut orci efficitur ornare in eu eros. Phasellus tempor lacus quis enim cursus fringilla. Duis vel malesuada ligula, suscipit dapibus nulla. In molestie rhoncus neque, eget vulputate ante suscipit malesuada. Nulla sit amet libero mollis ante rutrum hendrerit. Fusce vitae mollis magna.\r\n\t\t\t\t<br/><br/>",
+        "text_html": "<div class=\"article_text_header\">\n                    consequat. Donec vitae sapien libero. Suspendisse commodo imperdiet pretium. Nunc quis ante imperdiet, rutrum neque id, eleifend lacus. Phasellus ipsum lacus, laoreet vel tortor eu, eleifend ullamcorper justo.\n                </div>\n\n<pre><code>            &lt;/br&gt;\n            Cras iaculis auctor neque. Ut semper varius arcu sit amet pretium. In mollis suscipit nunc, at congue urna congue vel. Praesent ligula velit, tempus ut mollis ut, dictum pulvinar felis. Vestibulum vitae sagittis lectus, at consectetur nibh. Duis porttitor vehicula nulla, nec consequat nibh viverra a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc euismod quis massa sit amet cursus. Nam eleifend velit consectetur maximus efficitur. Etiam euismod lorem tincidunt nibh pharetra suscipit. Nulla facilisi. Praesent euismod quis lacus eget hendrerit.\n            &lt;br/&gt;&lt;br/&gt;\n\n            &lt;div class=&quot;article_text_header&quot;&gt;\n                Phasellus id magna neque. Nunc placerat sit amet metus vel tristique. Nullam sit amet rhoncus erat.\n            &lt;/div&gt;\n            &lt;/br&gt;\n\n            Praesent consequat lorem facilisis sapien luctus, nec fermentum enim dapibus. Donec nisl justo, consectetur at euismod a, tempor sed orci. Nam vitae dapibus nulla, sed auctor nisl. Quisque quis urna eget est tempus pellentesque et at odio. Nullam in semper turpis. Nulla consequat erat semper, faucibus sem ut, aliquet nisl. Morbi tincidunt mattis turpis, consectetur venenatis lorem posuere ut. Praesent et augue faucibus, maximus arcu sit amet, consequat massa. Duis pharetra rutrum neque, non consectetur felis tempor consequat. Sed mollis mollis ante ut imperdiet. Ut et mattis purus, quis bibendum arcu. Donec porttitor finibus egestas.\n            &lt;br/&gt;&lt;br/&gt;\n\n            &lt;ul class=&quot;article_text_list&quot;&gt;\n                &lt;li&gt;Ut maximus tristique libero. Suspendisse sed accumsan dolor.&lt;/li&gt;\n                &lt;li&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/li&gt;\n                &lt;li&gt;Donec ac mattis felis. In sollicitudin hendrerit risus, vel venenatis velit viverra nec.&lt;/li&gt;\n                &lt;li&gt;Morbi convallis metus id lacinia mollis. Phasellus viverra auctor augue, sed dignissim tortor egestas posuere.&lt;/li&gt;\n            &lt;/ul&gt;\n            &lt;/br&gt;\n\n            Morbi quam urna, luctus eget tincidunt id, tincidunt id turpis. Nullam massa arcu, semper ut orci et, pretium maximus libero. Nam id massa lorem. Nulla iaculis vehicula pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque augue vel tortor euismod, id sodales dolor consectetur. Morbi commodo luctus leo sit amet fermentum. Praesent eget tempor sapien. Maecenas condimentum nunc metus, non accumsan sem rutrum in. Donec elementum magna et gravida pharetra. Vivamus dolor purus, congue vitae justo at, gravida euismod lectus. Aenean hendrerit, lacus eget ornare rhoncus, elit quam molestie nibh, eu dapibus elit libero ac risus.\n            &lt;br/&gt;&lt;br/&gt;\n\n            &lt;div class=&quot;article_text_header&quot;&gt;\n                Aenean ullamcorper dolor enim, a ultricies arcu euismod eget. Cras dolor diam, blandit molestie auctor ac, vestibulum a lectus. Morbi eros magna, viverra a tristique quis, varius et ipsum. Donec sollicitudin iaculis magna nec interdum. Proin finibus vehicula arcu at efficitur. Etiam molestie est ipsum, ut rhoncus orci gravida sed. Etiam aliquam odio quam, ut cursus nisl lacinia quis. Nunc semper erat eget viverra varius. Donec malesuada ante eu bibendum tempus. Proin lobortis lacus quis lorem consequat pretium.\n            &lt;/div&gt;\n            &lt;/br&gt;\n\n            Nam sit amet consequat orci. In a leo imperdiet, iaculis est at, vehicula enim. Nam a dolor eget enim volutpat dignissim. Nullam ac nibh diam. Pellentesque fermentum est id sapien hendrerit dapibus. Mauris sed pharetra diam. Quisque id tortor iaculis lorem ullamcorper tempor. Sed vel eros bibendum justo tristique sollicitudin. Aenean finibus commodo elit, sit amet maximus leo porttitor nec. Nunc ultrices ligula purus, id aliquet nibh convallis eget. Donec varius, lectus interdum posuere volutpat, massa urna imperdiet justo, quis mollis massa nunc nec est. Morbi varius enim libero, id egestas nunc tincidunt eu. Phasellus at pharetra odio, sed pharetra nibh.\n            &lt;br/&gt;&lt;br/&gt;\n\n            Nam in mi nec diam gravida semper. Nulla congue, eros quis aliquet tempus, erat arcu fringilla lectus, et rhoncus elit eros eu dui. Sed eget velit risus. Fusce a orci malesuada, molestie neque vel, bibendum nisl. Duis vehicula lacus vitae dolor finibus, vitae posuere magna gravida. Vivamus ut fringilla nibh, vel aliquam ligula. Mauris in dolor eget urna fringilla pharetra ut eu dui. Cras mattis, turpis eget condimentum sodales, tortor eros pulvinar leo, id varius sapien mauris non ipsum. Suspendisse felis urna, posuere eu euismod eget, mattis in urna. Etiam sit amet blandit justo. Aenean id nisi eu mauris pretium ultricies. Pellentesque lacinia, augue non consectetur volutpat, ex urna porta nulla, sed eleifend lectus ligula sit amet turpis. Pellentesque feugiat vehicula dui, placerat bibendum mi cursus sed. Curabitur volutpat, urna at tincidunt finibus, nunc nisi faucibus est, non gravida augue lacus a nisi.\n            &lt;br/&gt;&lt;br/&gt;\n\n            &lt;!--\n            &lt;img class=&quot;article_text_image&quot; src=&quot;images/all_blogs/blog_pic.jpg&quot; alt=&quot;&quot;&gt;\n            &lt;br/&gt;&lt;br/&gt;\n        --&gt;\n\n            Donec imperdiet auctor maximus. Nam ultrices turpis ullamcorper nunc interdum, sit amet consectetur velit feugiat. Quisque interdum rhoncus tellus, eu aliquam ipsum luctus ut. Aenean mollis, arcu molestie accumsan consequat, mauris est dictum purus, eget eleifend risus metus a lorem. Fusce dignissim nunc vel bibendum consequat. Duis dignissim, ipsum ac fermentum consectetur, nisl ex euismod velit, et sollicitudin felis urna nec sapien. Nullam vitae blandit ante. Vivamus venenatis sit amet arcu at feugiat. Nam interdum egestas velit in scelerisque. Aliquam semper posuere dui in ultrices. Maecenas et enim ut orci efficitur ornare in eu eros. Phasellus tempor lacus quis enim cursus fringilla. Duis vel malesuada ligula, suscipit dapibus nulla. In molestie rhoncus neque, eget vulputate ante suscipit malesuada. Nulla sit amet libero mollis ante rutrum hendrerit. Fusce vitae mollis magna.\n            &lt;br/&gt;&lt;br/&gt;\n</code></pre>\n",
+        "views": 101,
+        "comments": 4,
+        "stars": 3
+    }
+},
+{
+    "model": "comment.comment",
+    "pk": 1,
+    "fields": {
+        "title": "\u041c\u043e\u0438 \u043b\u0438\u0447\u043d\u043e\u0435 \u043c\u043d\u0435\u043d\u0438\u0435 1",
+        "created_at": "2019-08-12T20:25:07.141Z",
+        "article": 1,
+        "author": 2,
+        "text": "Cras iaculis auctor neque. Ut semper varius arcu sit amet pretium. In mollis suscipit nunc, at congue urna congue vel. Praesent ligula velit, tempus ut mollis ut, dictum pulvinar felis. Vestibulum vitae sagittis lectus, at consectetur nibh. Duis porttitor vehicula nulla, nec consequat nibh viverra a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+        "date": "11.12.2018",
+        "time": "13:04"
+    }
+},
+{
+    "model": "comment.comment",
+    "pk": 2,
+    "fields": {
+        "title": "\u041c\u043e\u0435 \u043b\u0438\u0447\u043d\u043e\u0435 \u043c\u043d\u0435\u043d\u0438\u0435 2",
+        "created_at": "2019-08-12T20:25:04.288Z",
+        "article": 1,
+        "author": 2,
+        "text": "Cras iaculis auctor neque. Ut semper varius arcu sit amet pretium. In mollis suscipit nunc, at congue urna congue vel. Praesent ligula velit, tempus ut mollis ut, dictum pulvinar felis. Vestibulum vitae sagittis lectus, at consectetur nibh. Duis porttitor vehicula nulla, nec consequat nibh viverra a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+        "date": "15.12.2018",
+        "time": "18:05"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2019-08-10T09:09:56.374Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "product",
+            "service"
+        ],
+        "object_id": "1",
+        "object_repr": "Title",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2019-08-10T16:59:55.479Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "saloon",
+            "saloon"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0430\u043b\u043e\u043d",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"type\", \"main_image\", \"district\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2019-08-10T17:03:24.675Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "saloon",
+            "saloon"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0430\u043b\u043e\u043d",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"work_hours\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2019-08-10T17:09:33.523Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "saloon",
+            "saloon"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0430\u043b\u043e\u043d",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"stars\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2019-08-10T17:09:50.524Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "saloon",
+            "saloon"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0430\u043b\u043e\u043d",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"stars\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2019-08-11T16:00:03.601Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "product",
+            "productsingle"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0428\u0430\u043c\u043f\u0443\u043d\u044c LOREAL",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2019-08-11T16:01:16.941Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "product",
+            "productsingle"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0428\u0430\u043c\u043f\u0443\u043d\u044c LOREAL",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"stars\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2019-08-11T16:01:35.729Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "product",
+            "productsingle"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0428\u0430\u043c\u043f\u0443\u043d\u044c LOREAL",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"stars\", \"old_price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2019-08-11T16:02:00.853Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "product",
+            "productsingle"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0428\u0430\u043c\u043f\u0443\u043d\u044c LOREAL",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"main_image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2019-08-11T20:15:52.611Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "offer"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u043a\u0438\u0434\u043e\u0447\u043a\u0430",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2019-08-12T10:50:51.624Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "event"
+        ],
+        "object_id": "1",
+        "object_repr": "\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u0441\u0430\u043b\u043e\u043d\u044b \u043a\u0440\u0430\u0441\u043e\u0442\u044b",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2019-08-12T10:51:28.015Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "saloon",
+            "saloon"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0430\u043b\u043e\u043d",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"phone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2019-08-12T10:51:59.724Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "saloon",
+            "saloon"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0430\u043b\u043e\u043d",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"phone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2019-08-12T11:01:34.461Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "seminar"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0435\u043c\u0438\u043d\u0430\u0440",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2019-08-12T11:02:51.293Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "seminar"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0435\u043c\u0438\u043d\u0430\u0440",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"saloon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2019-08-12T11:03:55.601Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "training"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0422\u0440\u044d\u0439\u043d\u0438\u043d\u0433",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2019-08-12T11:04:35.078Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "news"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0440\u043e\u0447\u043d\u0430\u044f \u043d\u043e\u0432\u043e\u0441\u0442\u044c",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2019-08-12T11:36:38.605Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "article"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0442\u0430\u0442\u044c\u044f \u21161",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2019-08-12T11:38:18.327Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "article"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0442\u0430\u0442\u044c\u044f \u21161",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2019-08-12T11:46:02.108Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "opinion"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0422\u0435\u043a\u0441\u0442 \u0432\u043e\u043f\u0440\u043e\u0441\u0430?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2019-08-12T11:46:45.821Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "opinion"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0422\u0435\u043a\u0441\u0442 \u0432\u043e\u043f\u0440\u043e\u0441\u0430?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"text\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2019-08-12T12:05:03.973Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "offer"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u043a\u0438\u0434\u043e\u0447\u043a\u0430",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"big_image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2019-08-12T15:36:07.630Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "event"
+        ],
+        "object_id": "1",
+        "object_repr": "\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u0441\u0430\u043b\u043e\u043d\u044b \u043a\u0440\u0430\u0441\u043e\u0442\u044b",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"time\", \"description_short\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2019-08-12T15:37:01.583Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "event"
+        ],
+        "object_id": "1",
+        "object_repr": "\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u0441\u0430\u043b\u043e\u043d\u044b \u043a\u0440\u0430\u0441\u043e\u0442\u044b",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2019-08-12T15:37:26.410Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "event"
+        ],
+        "object_id": "1",
+        "object_repr": "\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u0441\u0430\u043b\u043e\u043d\u044b \u043a\u0440\u0430\u0441\u043e\u0442\u044b",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2019-08-12T16:13:10.056Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "qa"
+        ],
+        "object_id": "1",
+        "object_repr": "\u041e\u0442\u043a\u0443\u0434\u0430 \u0431\u0435\u0440\u0443\u0442\u0441\u044f \u043c\u043e\u043d\u0434\u0430\u0432\u043e\u0448\u043a\u0438 \u0438\u043b\u0438 \"\u0441\u043f\u0438\u0434\u043e\u0437\u043d\u044b\u0435 \u043b\u043e\u0431\u043a\u043e\u0432\u044b\u0435 \u0432\u0448\u0438-\u0441\u0438\u0444\u0438\u043b\u0438\u0442\u0438\u043a\u0438",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2019-08-12T17:51:06.576Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "saloon",
+            "profile"
+        ],
+        "object_id": "2",
+        "object_repr": "\u0421\u043c\u0438\u0440\u043d\u043e\u0432\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0412\u0438\u0442\u0430\u043b\u044c\u0435\u0432\u043d\u0430",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar\", \"status\", \"articles\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2019-08-12T17:56:18.555Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "opinion"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0422\u0435\u043a\u0441\u0442 \u0432\u043e\u043f\u0440\u043e\u0441\u0430?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"text\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2019-08-12T18:25:26.043Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "article"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0442\u0430\u0442\u044c\u044f \u21161",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"date\", \"stars\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2019-08-12T18:28:29.058Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "article"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0442\u0430\u0442\u044c\u044f \u21161",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"text\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2019-08-12T18:32:39.956Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "article"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0442\u0430\u0442\u044c\u044f \u21161",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"main_image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2019-08-12T18:39:12.882Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "article"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0442\u0430\u0442\u044c\u044f \u21161",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"comments\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2019-08-12T19:24:07.504Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "event"
+        ],
+        "object_id": "2",
+        "object_repr": "\u0417\u0430\u043a\u0440\u044b\u0442\u0438\u0435 \u0441\u0430\u043b\u043e\u043d\u0430 \u043a\u0440\u0430\u0441\u043e\u0442\u044b",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2019-08-12T19:25:16.307Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "event"
+        ],
+        "object_id": "3",
+        "object_repr": "\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u043d\u043e\u0432\u043e\u0433\u043e \u0441\u0430\u043b\u043e\u043d\u0430",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2019-08-12T19:25:37.260Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "offer",
+            "event"
+        ],
+        "object_id": "3",
+        "object_repr": "\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u043d\u043e\u0432\u043e\u0433\u043e \u0441\u0430\u043b\u043e\u043d\u0430",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"main_image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2019-08-12T19:32:50.024Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "saloon",
+            "saloon"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0430\u043b\u043e\u043d",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2019-08-12T19:34:03.023Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "saloon",
+            "saloon"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0430\u043b\u043e\u043d",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2019-08-12T19:34:18.662Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "saloon",
+            "saloon"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0430\u043b\u043e\u043d",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2019-08-12T19:44:38.883Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "saloon",
+            "saloon"
+        ],
+        "object_id": "1",
+        "object_repr": "\u0421\u0430\u043b\u043e\u043d",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"work_hours\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2019-08-12T20:08:56.611Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "qa"
+        ],
+        "object_id": "1",
+        "object_repr": "\u041a\u0430\u043a \u043f\u043e\u0431\u043e\u0440\u043e\u0442\u044c \u043f\u0440\u044b\u0449\u0438?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2019-08-12T20:09:15.564Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "qa"
+        ],
+        "object_id": "1",
+        "object_repr": "\u041a\u0430\u043a \u043f\u043e\u0431\u043e\u0440\u043e\u0442\u044c \u043f\u0440\u044b\u0449\u0438?",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2019-08-12T20:24:01.967Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "comment"
+        ],
+        "object_id": "1",
+        "object_repr": "\u041c\u043e\u0438 \u043b\u0438\u0447\u043d\u043e\u0435 \u043c\u043d\u0435\u043d\u0438\u0435 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2019-08-12T20:24:36.216Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "comment"
+        ],
+        "object_id": "2",
+        "object_repr": "\u041c\u043e\u0435 \u043b\u0438\u0447\u043d\u043e\u0435 \u043c\u043d\u0435\u043d\u0438\u0435 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2019-08-12T20:25:04.289Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "comment"
+        ],
+        "object_id": "2",
+        "object_repr": "\u041c\u043e\u0435 \u043b\u0438\u0447\u043d\u043e\u0435 \u043c\u043d\u0435\u043d\u0438\u0435 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"text\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2019-08-12T20:25:07.142Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "comment",
+            "comment"
+        ],
+        "object_id": "1",
+        "object_repr": "\u041c\u043e\u0438 \u043b\u0438\u0447\u043d\u043e\u0435 \u043c\u043d\u0435\u043d\u0438\u0435 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"text\"]}}]"
+    }
+}
+]
